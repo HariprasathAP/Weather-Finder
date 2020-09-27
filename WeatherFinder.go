@@ -98,7 +98,7 @@ func main(){
 	}
 
 	Iweather := func(w http.ResponseWriter, r *http.Request){
-		t,err := template.ParseFiles("template.html")
+		t,err := template.ParseFiles("getCity.html")
 		if err != nil{
 			fmt.Println("panic")
 		}
