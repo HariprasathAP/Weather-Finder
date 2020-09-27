@@ -81,10 +81,6 @@ func main(){
 		if err == nil{
 			print(err)
 		}
-
-		if er != nil{
-			print(er)
-		}
 		
 		wr,er := template.ParseFiles("weather.html")
 
